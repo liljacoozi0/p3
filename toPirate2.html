@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pirate Translator</title>
+    <link rel="stylesheet" href="toPirate2.css">
+</head>
+
+<body>
+
+    <h3> <img src="https://thumbs-prod.si-cdn.com/L1vN0D7boMfbRLg_C1_MF5xnhYw=/fit-in/1600x0/filters:focal(530x301:531x302)/https://public-media.si-cdn.com/filer/af/df/afdf8162-c200-48fd-ace5-848f521a4148/01-blackbeard-drawing.jpg" alt="Blackbeard">Land Lubber's Pirate Translator</h3>
+      <p>Simply click the buttons to translate words and/or phrases from English to Standard Pirate. </p>
+      <hr>
+      <br>
+
+    <table>
+        <tr>
+          <td class="category"> Greetings: &nbsp; </td>
+        </tr>
+        <tr>
+          <td class="category"> People: &nbsp;</td>
+        </tr>
+
+      </table>
+
+      <textarea id="outBox" rows="3" cols="40"></textarea>
+
+    <button type="button" onclick="refreshPage()">Clear Words</button>
+
+  <script>
+  function refreshPage(){
+      window.location.reload();
+  }
+  </script>
+  <script type="text/javascript" src="toPirate2.js"></script>
+</body>
+
+</html>
